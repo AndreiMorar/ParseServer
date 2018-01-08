@@ -1,4 +1,4 @@
-/*import ParseServer          from './ParseServer';
+import ParseServer          from './ParseServer';
 import S3Adapter            from '@parse/s3-files-adapter'
 import FileSystemAdapter    from '@parse/fs-files-adapter'
 import InMemoryCacheAdapter from './Adapters/Cache/InMemoryCacheAdapter'
@@ -39,12 +39,14 @@ export {
   PushWorker,
   _ParseServer as ParseServer
 };
-*/
+
+console.log('BUBU 1');
 
 
 // Example express application adding the parse-server module to expose Parse
 // compatible API routes.
 
+/*
 var express = require('express');
 var ParseServer = require('parse-server').ParseServer;
 var path = require('path');
@@ -97,3 +99,4 @@ httpServer.listen(port, function() {
 
 // This will enable the Live Query real-time server
 ParseServer.createLiveQueryServer(httpServer);
+*/
